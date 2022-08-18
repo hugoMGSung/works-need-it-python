@@ -14,5 +14,4 @@ print(p.total)
 john = Person.Person("John Doe", 35)
 print(john.name)
 
-
 # https://code.visualstudio.com/docs/editor/settings-sync#_troubleshooting-keychain-issuese
