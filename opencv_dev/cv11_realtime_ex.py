@@ -62,7 +62,7 @@ while True:
     if diff_cnt > diff_max:
         is_record = True    # 녹화 준비
         if on_record == False:
-            video = cv2.VideoWriter("./capture/동영상_웹캠_" + nowDatetime_path + ".avi", fourcc, 1, (frame_c.shape[1], frame_c.shape[0]))
+            video = cv2.VideoWriter("./opencv_dev/capture/webcam_" + nowDatetime_path + ".avi", fourcc, 1, (frame_c.shape[1], frame_c.shape[0]))
         cnt_record = max_cnt_record
     if is_record == True:   # 녹화중이면
         print('녹화 중')

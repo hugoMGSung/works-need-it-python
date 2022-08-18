@@ -9,7 +9,7 @@ import numpy as np
 import cv2
 
 # Cascades 디렉토리의 haarcascade_frontalface_default.xml 파일을 Classifier로 사용
-faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('./opencv_dev/data/haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
 #cap.set(3,640) # set Width 윈도우에선 굳이 필요없음
 #cap.set(4,480) # set Height

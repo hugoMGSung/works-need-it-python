@@ -12,8 +12,7 @@ while cap.isOpened():
  
         # ESC를 누르면 종료
         key = cv2.waitKey(1) & 0xFF
-        if (key == 27): 
-            break
+        if (key == ord('q')): break
  
 cap.release()
 cv2.destroyAllWindows()

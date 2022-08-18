@@ -6,8 +6,8 @@ detectFace.py와 동일
 import numpy as np
 import cv2
 
-faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-eyeCascade = cv2.CascadeClassifier('haarcascade_eye.xml')
+faceCascade = cv2.CascadeClassifier('./opencv_dev/data/haarcascade_frontalface_default.xml')
+eyeCascade = cv2.CascadeClassifier('./opencv_dev/data/haarcascade_eye.xml')
 cap = cv2.VideoCapture(0)
 #cap.set(3,640) # set Width 윈도우에서는 사용하지 말것
 #cap.set(4,480) # set Height

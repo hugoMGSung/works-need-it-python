@@ -9,7 +9,7 @@ while True:
     ret,img = cam.read()
     cv2.imshow('Video Capture', img)
     key = cv2.waitKey(10)
-    if key == 27:
+    if key == ord('q'):
         break
     if key == ord(' '):
-        cv2.imwrite('capture.jpg', img)
+        cv2.imwrite('./opencv_dev/data/capture.jpg', img)

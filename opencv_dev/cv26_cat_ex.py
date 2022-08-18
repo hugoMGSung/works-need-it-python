@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 
-org = cv2.imread('./image/cat.jpg')
+org = cv2.imread('./opencv_dev/image/cat.jpg')
 gray = cv2.cvtColor(org, cv2.COLOR_BGR2GRAY)
 enhanced = cv2.equalizeHist(gray)
 

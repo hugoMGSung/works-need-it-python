@@ -19,7 +19,7 @@ fourcc = cv2.VideoWriter_fourcc(*'XVID')    # 영상을 기록할 코덱 설정
 font = ImageFont.truetype('./fonts/NANUMGOTHIC.TTF', 20)
 
 # haar cascade 검출기 객체 선언
-face_cascade = cv2.CascadeClassifier('./data/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./opencv_dev/data/haarcascade_frontalface_default.xml')
 # eye_cascade = cv2.CascadeClassifier('./data/haarcascade_eye_tree_eyeglasses.xml')
 # 무한루프
 while True:
@@ -49,7 +49,7 @@ while True:
     if len(faces) :
         is_record = True    # 녹화 준비
         if on_record == False:
-            video = cv2.VideoWriter("./capture/동영상_웹캠_" + nowDatetime_path + ".avi", fourcc, 1, (frame.shape[1], frame.shape[0]))
+            video = cv2.VideoWriter("./opencv_dev/capture/webcam_" + nowDatetime_path + ".avi", fourcc, 1, (frame.shape[1], frame.shape[0]))
         cnt_record = max_cnt_record
         
     if is_record == True:   # 녹화중이면

@@ -1,3 +1,4 @@
+## 공대선배 소스
 import cv2
 import datetime
 from PIL import ImageFont, ImageDraw, Image

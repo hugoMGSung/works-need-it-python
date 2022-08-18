@@ -60,7 +60,7 @@ while True:
     
     # 움직임이 일정 이상이면
     if diff_cnt > diff_max:
-        cv2.imwrite("./capture/capture " + nowDatetime_path + ".png", frame)  # 파일이름(한글안됨), 이미지 
+        cv2.imwrite("./opencv_dev/capture/capture " + nowDatetime_path + ".png", frame)  # 파일이름(한글안됨), 이미지 
     
     # 영상 차이를 출력(실제 사용시는 꺼도 됨)
     cv2.imshow("diff", diff)

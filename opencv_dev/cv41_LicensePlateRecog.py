@@ -72,7 +72,7 @@ MIN_N_MATCHED = 3
 possible_contours = []
 
 def get_carnumber():
-    img = cv2.imread('./image/car_number_02.jpg')
+    img = cv2.imread('./opencv_dev/image/car_number_02.jpg')
     height, width, channel = img.shape
 
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -295,7 +295,7 @@ while True:
     key = cv2.waitKey(10)
 
     if key == ord('c'):
-        cv2.imwrite('./image/captured.jpg', src)
+        cv2.imwrite('./opencv_dev/image/captured.jpg', src)
         get_carnumber()
         
     elif key == ord('q'): break
