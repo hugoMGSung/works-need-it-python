@@ -1,4 +1,5 @@
 ## QT5 사용자 윈도우 구성 예제
+
 import sys
 from PyQt5.QtCore import QSize
 from PyQt5.QtWidgets import *

@@ -1,8 +1,8 @@
-# 사이즈 변경
+# 고양이 사이즈 변경
 import cv2
 import numpy as np
 
-org = cv2.imread('./image/cat.jpg')
+org = cv2.imread('./opencv_dev/image/cat.jpg')
 gray = cv2.cvtColor(org, cv2.COLOR_BGR2GRAY)
 
 size_small = cv2.resize(org, (160, 80))
