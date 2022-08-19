@@ -9,7 +9,7 @@ from threadsafe_tkinter import *
 
 def get_weather(city):
     page = urlopen('https://www.weather.go.kr/weather/observation/currentweather.jsp')
-    text = page.read().decode('euckr')
+    text = page.read().decode('utf-8')
     text = text[text.find(">" + city + "</a>"):] 
     for i in range(5):
         text = text[text.find("<td>")+1:]
