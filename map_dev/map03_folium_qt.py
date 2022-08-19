@@ -3,6 +3,7 @@ import sys
 import folium
 from PyQt5 import QtWidgets, QtWebEngineWidgets
 
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     ## tiles 종류 : OpenStreetMap(X), Stamen Toner(O), Stamen Terrain(O), cartodbpositron(O)

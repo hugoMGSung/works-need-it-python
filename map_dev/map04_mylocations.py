@@ -11,7 +11,7 @@ m = folium.Map(location=[37.564214, 127.001699],
 
 folium.Marker(location=[37.564214, 127.001699], icon=folium.Icon(color='red', icon='star')).add_to(m)
 
-with open('./data/seoul_municipalities_geo.json',mode='rt',encoding='utf-8') as f:
+with open('./map_dev/data/seoul_municipalities_geo.json',mode='rt',encoding='utf-8') as f:
     geo = json.loads(f.read())
     f.close()
 
