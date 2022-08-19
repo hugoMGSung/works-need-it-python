@@ -10,7 +10,7 @@ import webbrowser
 class MyWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('./ui/naverSearch.ui', self)
+        uic.loadUi('./win_dev/pyqt/ui/naverSearch.ui', self)
 
         #ui에 있는 위젯하고 시그널 처리(컨트롤 이벤트처리)
         self.btnSearch.clicked.connect(self.btnSearch_Clicked)
@@ -54,7 +54,7 @@ class MyWindow(QMainWindow):
             return
 
         # naver api search
-        jsonSearch = api.getNaverSearchResult(sNode, search_word, 1, display)
+        jsonSearch = api.getNaverSearch(sNode, search_word, 1, display)
         jsonResult = jsonSearch['items'] # items 리스트 분리
         print(len(jsonResult))
         self.stsResult.showMessage('검색결과 : {0}개'.format(len(jsonResult)))
