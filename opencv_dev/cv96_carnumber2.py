@@ -4,7 +4,6 @@
 자동차 번호판 인식 2
 오류 존재
 '''
-
 import cv2
 import numpy as np
 import pytesseract
@@ -12,7 +11,7 @@ from  PIL import Image
 
 class Recognition:
      def ExtractNumber(self):
-          Number='3.jpg' 
+          Number='./opencv_dev/image/3.jpg' 
           img=cv2.imread(Number,cv2.IMREAD_COLOR)
           copy_img=img.copy()
           img2=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

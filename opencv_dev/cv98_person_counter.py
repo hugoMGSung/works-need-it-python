@@ -4,8 +4,6 @@ import cv2
 import Person
 import time
 
-
-
 cnt_up   = 0
 cnt_down = 0
 count_up = 0
@@ -14,11 +12,9 @@ state =0
 
 #Taking the video input
 #cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture("./movie/TestVideo.mp4")
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output1.mkv',fourcc, 20.0, (640,480))
-
-
+cap = cv2.VideoCapture("./opencv_dev/movie/TestVideo.mp4")
+fourcc = cv2.VideoWriter_fourcc(*'DIVX')
+out = cv2.VideoWriter('./opencv_dev/movie/output1.avi', fourcc, 20.0, (640,480))  # 저장이 제대로 안됨 찾을 것
 
 ##cap.set(3,160) #Width
 ##cap.set(4,120) #Height
