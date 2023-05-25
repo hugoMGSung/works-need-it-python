@@ -7,7 +7,7 @@ import json
 
 class naverSearch:
     client_id = 'JqpkgFJJbXWXTzhAEa4i'
-    client_secret = 'tSLsq0RhsE'
+    client_secret = 'ASSqx8ewxj'
 
     #[CODE 1]
     def getRequestUrl(self, url):

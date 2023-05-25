@@ -10,7 +10,8 @@ import webbrowser
 class MyWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('./win_dev/pyqt/ui/naverSearch.ui', self)
+        uic.loadUi('d:/01_Programming/100_HugoBank/Mine/works-need-it-python/win_dev/pyqt/ui/naverSearch.ui', self)
+        # uic.loadUi('./win_dev/pyqt/ui/naverSearch.ui', self)
 
         #ui에 있는 위젯하고 시그널 처리(컨트롤 이벤트처리)
         self.btnSearch.clicked.connect(self.btnSearch_Clicked)
