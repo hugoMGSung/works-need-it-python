@@ -67,9 +67,9 @@ print(f'파이는 {pi:10.3f}입니다.') # 파이는       3.142입니다.
     - 주소록 프로그램 [소스](https://github.com/hugoMGSung/studyPython2023/blob/main/Project/address_app.py)
 
 <!--
-![실행화면](https://raw.githubusercontent.com/hugoMGSung/studyPython2023/main/Images/address_app.png)
+![실행화면](https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/main/basic/basic-python-2023/Images/address_app.png)
 -->
-<img src="https://raw.githubusercontent.com/hugoMGSung/studyPython2023/main/Images/address_app.png" width="780">
+<img src="https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/main/basic/basic-python-2023/Images/address_app.png" width="780">
 
 실행화면
     
@@ -91,7 +91,7 @@ print(f'파이는 {pi:10.3f}입니다.') # 파이는       3.142입니다.
         - 데이터포털 OpenAPI 크롤링
         - BeautifulSoup 크롤링
 
-![실행화면](https://raw.githubusercontent.com/hugoMGSung/studyPython2023/main/Images/jupyter_folium.png)
+![실행화면](https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/main/basic/basic-python-2023/Images/jupyter_folium.png)
 
 Folium OpenAPI 연동화면
 
@@ -110,11 +110,11 @@ Folium OpenAPI 연동화면
         - PyQt 위젯 계속
         - PyQt 다이얼로그
 
-![pixmap](https://raw.githubusercontent.com/hugoMGSung/studyPython2023/main/Images/pixmap.png)
+![pixmap](https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/main/basic/basic-python-2023/Images/pixmap.png)
 
 Pixmap 실행화면
 
-![실행화면](https://raw.githubusercontent.com/hugoMGSung/studyPython2023/main/Images/dialog.png)
+![실행화면](https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/main/basic/basic-python-2023/Images/dialog.png)
 
 PyQt 실행화면
 
