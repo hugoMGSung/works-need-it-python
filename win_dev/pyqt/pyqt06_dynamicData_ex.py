@@ -8,6 +8,7 @@ from naverSearch import *
 import os
 
 class MyApp(QWidget):
+    btn_num = 0
     rows = 0
     
     def __init__(self):
@@ -24,8 +25,9 @@ class MyApp(QWidget):
     def btnAddItem_Clicked(self):       
         self.tblResult.setRowCount(self.rows + 1)
         self.tblResult.setItem(self.rows, 0, QTableWidgetItem("내용 블라블라블라"))
+        self.btn_num += 1
         
-        self.btn_cell = QPushButton(f'Del {self.rows + 1}')
+        self.btn_cell = QPushButton(f'Del {self.btn_num}')
         self.btn_cell.button_row = self.rows
         self.btn_cell.button_column = 1
         self.btn_cell.clicked.connect(self.cellButtonClicked)
