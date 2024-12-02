@@ -8,8 +8,14 @@
 pip install PyQt6
 ```
 
+- PySide6 도 같이 설치할 것
+    - QtDesigner 설치됨(가장 간편!)
+
+#### 버전 테스트
+1. prac00_pyqt6_version.py
+
 #### 기본 예제
-1. prac01_pyqt6.py
+1. prac01_pyqt6_basic.py
 
     ```python
     import sys
@@ -30,3 +36,8 @@ pip install PyQt6
 
     <img src="https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/refs/heads/main/images/tot0001.png" width="500">
 
+
+#### 영화플레이어 클로닝
+- 우선 가져오기 - 제대로 동작 안하네? ^^
+
+#### Tutorial - https://zetcode.com/pyqt6/layout/
