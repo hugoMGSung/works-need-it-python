@@ -28,3 +28,5 @@ pip install PyQt6
     sys.exit(app.exec())
     ```
 
+    <img src="https://raw.githubusercontent.com/hugoMGSung/works-need-it-python/refs/heads/main/images/tot0001.png" width="500">
+
