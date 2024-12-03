@@ -40,4 +40,6 @@ pip install PyQt6
 #### 영화플레이어 클로닝
 - 우선 가져오기 - 제대로 동작 안하네? ^^
 
-#### Tutorial - https://zetcode.com/pyqt6/layout/
+#### Tutorial
+- https://zetcode.com/pyqt6/layout/ 참조
+- 다이얼로그, 드래그 앤 드랍, Custom Widgets 등 생략
