@@ -146,3 +146,5 @@ __pycache__
 *.deb
 *.buildinfo
 *.changes
+/snd_env
+/venv_thrd
