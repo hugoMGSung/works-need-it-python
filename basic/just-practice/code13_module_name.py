@@ -1,1 +1,0 @@
-print(f'code13_module_name : {__name__}')

@@ -1,0 +1,12 @@
+// 한국의 주요 도시
+digraph {
+	rankdir=LR
+	node [fontname=NanumGothic]
+	edge [fontname=NanumGothic]
+	A [label="서울"]
+	B [label="부산"]
+	C [label="대전"]
+	A -> B [label="경부선"]
+	A -> C [label="호남선"]
+	B -> C [label="동해선"]
+}
