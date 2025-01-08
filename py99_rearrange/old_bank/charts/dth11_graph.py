@@ -1,8 +1,12 @@
+'''
+아두이노 온습도 센서 있어야 함!
+'''
 from matplotlib import pyplot as plt
 from matplotlib import animation
 import numpy as np
 import time
 import Adafruit_DHT
+
 sensor = Adafruit_DHT.DHT11
 pin = 4
 
