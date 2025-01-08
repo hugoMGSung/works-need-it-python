@@ -19,3 +19,5 @@ l1, = a.plot([], [])
 ani = anim.FuncAnimation(fig, update, fargs=(l1,), interval=50)
  
 plt.show()
+
+# 안되네?
