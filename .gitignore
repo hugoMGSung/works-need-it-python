@@ -148,3 +148,4 @@ __pycache__
 *.changes
 /snd_env
 /venv_thrd
+/aienv
