@@ -148,3 +148,5 @@ __pycache__
 *.changes
 /cpu-env
 /gpu-env
+/env-cpu
+/env-gpu
