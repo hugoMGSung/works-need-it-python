@@ -146,3 +146,5 @@ __pycache__
 *.deb
 *.buildinfo
 *.changes
+/cpu-env
+/gpu-env
