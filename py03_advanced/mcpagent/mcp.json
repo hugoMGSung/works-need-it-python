@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "mcp-test": {
+        "command": "D:\\01_Programming\\100_HugoBank\\Mine\\works-need-it-python\\env-cpu\\Scripts\\python.exe",
+        "args": [
+          "D:\\01_Programming\\100_HugoBank\\Mine\\works-need-it-python\\py03_advanced\\mcpagent\\mcp02_server.py"
+        ]
+      }
+    }
+  }
